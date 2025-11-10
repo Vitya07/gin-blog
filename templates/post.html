@@ -1,0 +1,16 @@
+<!-- templates/post.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Post.Title}}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="post-detail">
+        <h1>{{.Post.Title}}</h1>
+        <p>{{.Post.Body}}</p>
+        <a href="/">← Назад к списку</a>
+    </div>
+</body>
+</html>
